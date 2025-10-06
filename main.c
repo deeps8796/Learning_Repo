@@ -4,6 +4,7 @@
 
 int main() {
 	int num1, num2, sum_result;
+    printf("Let's sum, subtract two numbers: \n");
 	printf("Enter first number: ");
 	scanf("%d", &num1);
 	printf("Enter second number: ");
