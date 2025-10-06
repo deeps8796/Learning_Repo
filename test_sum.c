@@ -1,9 +1,6 @@
 #include <assert.h>
 #include <stdio.h>
-
-int sum(int a, int b) {
-    return a + b;
-}
+#include "sum.h"
 
 void test_sum() {
     assert(sum(2, 3) == 5);
