@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "sum.h"
 #include "subtract.h"
+#include "multiply.h"
 
 int main() {
 	int num1, num2, sum_result;
@@ -12,6 +13,7 @@ int main() {
 	sum_result = sum(num1, num2);
 	printf("Sum: %d\n", sum_result);
     printf("Subtraction: %d\n", subtract(num1, num2));
+    printf("Multiplication: %d\n", multiply(num1, num2));
 
     printf("lets sum 3 numbers: \n");
     int num3, sum3_result;
